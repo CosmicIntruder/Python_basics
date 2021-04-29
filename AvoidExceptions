@@ -1,0 +1,9 @@
+a = input("Type a Number! Amigo.")
+b = input("Type Another")
+a = int(a)
+b = int(b)
+#To avoid ZeroDivisionError, we use these keywords.
+try:
+    print(a/b)
+except ZeroDivisionError:
+    print("Are you crazy? No! b can never be zero.")
