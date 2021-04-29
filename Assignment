@@ -1,0 +1,8 @@
+a = input("Type a number:")
+try:
+    def convert(a):
+        return int(a)
+    result = convert(a)
+    print(result)
+except ValueError:
+    print("Please Type an Integer.")
