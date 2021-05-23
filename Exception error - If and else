@@ -1,0 +1,10 @@
+try :
+    age = input("Write your Age: ")
+    int_age = int(age)
+    if int_age < 20:
+        print("You are too Young to apply for vaccine.")
+    else:
+        print("You are eligible to apply vaccine")
+
+except ValueError:
+    print("Not your gay Age! boi.")
