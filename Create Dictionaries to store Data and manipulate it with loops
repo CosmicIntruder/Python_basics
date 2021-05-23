@@ -1,0 +1,19 @@
+# use of Dictionaries with loops
+
+Hanzala = dict()
+Hanzala["1"] = "Excellent"
+Hanzala["2"] = "Very Good"
+Hanzala["3"] = "Amazingly Average"
+
+V = input("Type a god damn Number!!!:")
+
+if V in Hanzala:
+    Scientist = Hanzala[V]
+    print(Scientist)
+
+#elif: def convert(Hanzala)
+            #return int(Hanzala)
+#Question: How to change float to integer here?
+
+else:
+    print("NOT HERE! M*@*@F@*@*")
